@@ -1,0 +1,21 @@
+{
+  "name": "smart-notification-scheduling-engine",
+  "version": "1.0.0",
+  "description": "A backend system for scheduling and executing asynchronous tasks such as **email notifications** and **webhook callbacks** with retry handling and execution logging.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kareemtaiye/Smart-Notification-Scheduling-Engine.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Kareemtaiye/Smart-Notification-Scheduling-Engine/issues"
+  },
+  "homepage": "https://github.com/Kareemtaiye/Smart-Notification-Scheduling-Engine#readme"
+}
