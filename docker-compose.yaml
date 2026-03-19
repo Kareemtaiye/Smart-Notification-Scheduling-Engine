@@ -7,6 +7,9 @@ services:
       - .:/app
       - /app/node_modules
     command: npm start
+  worker:
+    build: .
+    command: node workers/rulesWorker.js
     depends_on:
       - postgres
       - redis

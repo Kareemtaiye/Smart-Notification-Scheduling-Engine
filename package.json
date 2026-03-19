@@ -20,9 +20,11 @@
   "homepage": "https://github.com/Kareemtaiye/Smart-Notification-Scheduling-Engine#readme",
   "dependencies": {
     "bcryptjs": "^3.0.3",
+    "bullmq": "^5.71.0",
     "cookie-parser": "^1.4.7",
     "dotenv": "^17.3.1",
     "express": "^5.2.1",
+    "ioredis": "^5.10.1",
     "jsonwebtoken": "^9.0.3",
     "morgan": "^1.10.1",
     "nodemon": "^3.1.14",
