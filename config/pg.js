@@ -2,14 +2,22 @@ import { config } from "dotenv";
 config();
 import { Pool } from "pg";
 
-const { DB_PORT, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME } = process.env;
+// const { DB_PORT, DB_HOST, DB_USER, DB_PASSWORD, DB_NAME } = process.env;
+
+const {
+  DOCKER_DB_PORT,
+  DOCKER_DB_HOST,
+  DOCKER_DB_USER,
+  DOCKER_DB_PASSWORD,
+  DOCKER_DB_NAME,
+} = process.env;
 
 const pool = new Pool({
-  host: DB_HOST,
-  port: DB_PORT,
-  user: DB_USER,
-  password: DB_PASSWORD,
-  database: DB_NAME,
+  host: DOCKER_DB_HOST,
+  port: DOCKER_DB_PORT,
+  user: DOCKER_DB_USER,
+  password: DOCKER_DB_PASSWORD,
+  database: DOCKER_DB_NAME,
 });
 
 (async () => {
